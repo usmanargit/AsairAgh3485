@@ -120,6 +120,26 @@ void loop() {
 ```
 ---
 
+## 👨‍💻 Author & Contact
+
+**Usman AR** — Embedded Systems & IoT Developer  
+
+- 🌐 **Website:** [usmanar.com](https://usmanar.com)
+- ✉️ **Email:** [usmanar.tsm@gmail.com](mailto:usmanar.tsm@gmail.com)
+- 🐙 **GitHub:** [@usmanargit](https://github.com/usmanargit)
+
+### 💼 Available for Freelance & Remote Work
+Tertarik berkolaborasi atau membutuhkan pengembang untuk proyek IoT dan sistem tertanam? Saya terbuka untuk proyek **freelance**, **konsultasi**, maupun posisi **remote worker**:
+
+- **Firmware & Driver Development**: Arduino, ESP32 (ESP-IDF/Arduino), STM32, RP2040.
+- **Industrial Protocols & Communication**: Modbus-RTU / Modbus-TCP, RS485, CAN Bus, UART, I2C, SPI.
+- **IoT & Telemetry**: MQTT, HTTP REST, LoRa/LoRaWAN, sensor monitoring dashboards.
+- **Custom Hardware & Sensor Integration**: Prototyping, sensor calibration, and production firmware.
+
+Silakan kunjungi [usmanar.com](https://usmanar.com) atau hubungi via [usmanar.tsm@gmail.com](mailto:usmanar.tsm@gmail.com) untuk mendiskusikan kebutuhan proyek Anda.
+
+---
+
 ## Lisensi
 
 Dilisensikan di bawah lisensi open-source [MIT License](LICENSE).  
