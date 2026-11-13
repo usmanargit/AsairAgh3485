@@ -1,0 +1,48 @@
+#######################################
+# Syntax Highlighting for AGH3485
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+AGH3485	KEYWORD1
+AGH3485_Status	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+read	KEYWORD2
+getTemperature	KEYWORD2
+getHumidity	KEYWORD2
+getRawTemperature	KEYWORD2
+getRawHumidity	KEYWORD2
+getStatus	KEYWORD2
+getStatusText	KEYWORD2
+setAddress	KEYWORD2
+getAddress	KEYWORD2
+setFunctionCode	KEYWORD2
+getFunctionCode	KEYWORD2
+setTimeout	KEYWORD2
+getTimeout	KEYWORD2
+setDeviceAddress	KEYWORD2
+setDeviceBaudRate	KEYWORD2
+calculateCRC	KEYWORD2
+
+#######################################
+# Constants and Literals (LITERAL1)
+#######################################
+AGH3485_DEFAULT_ADDRESS	LITERAL1
+AGH3485_DEFAULT_TIMEOUT	LITERAL1
+AGH3485_DEFAULT_BAUD	LITERAL1
+AGH3485_FC_READ_HOLDING	LITERAL1
+AGH3485_FC_READ_INPUT	LITERAL1
+AGH3485_FC_WRITE_SINGLE	LITERAL1
+AGH3485_SUCCESS	LITERAL1
+AGH3485_ERR_TIMEOUT	LITERAL1
+AGH3485_ERR_CRC	LITERAL1
+AGH3485_ERR_INVALID_RESPONSE	LITERAL1
+AGH3485_ERR_EXCEPTION	LITERAL1
+AGH3485_ERR_NOT_INITIALIZED	LITERAL1
+AGH3485_ERR_INVALID_PARAM	LITERAL1
+
