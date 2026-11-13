@@ -118,53 +118,6 @@ void loop() {
   delay(3000);
 }
 ```
-
----
-
-## Panduan Agar Terindeks di Arduino IDE Library Manager
-
-Agar library ini dapat dicari dan diinstal langsung melalui menu **Tools > Manage Libraries...** di Arduino IDE, ikuti 5 langkah berikut:
-
-### Langkah 1: Buat Repositori GitHub Publik
-1. Buka [GitHub](https://github.com/) dan buat repositori baru dengan status **Public**.
-2. Beri nama repositori sesuai nama library, misalnya: `AsairAgh3485`.
-3. Push seluruh isi folder `AsairAgh3485` ke branch utama (biasanya `main`):
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: Initial release of AsairAgh3485 library v1.0.0"
-   git branch -M main
-   git remote add origin https://github.com/usmanargit/AsairAgh3485.git
-   git push -u origin main
-   ```
-
-### Langkah 2: Buat Git Release / Tag
-Arduino Library Manager memindai versi berdasarkan **Git Tag**:
-1. Di halaman GitHub repository Anda, buka tab **Releases** (atau jalankan via git CLI).
-2. Klik **Create a new release** (atau `Draft a new release`).
-3. Pada kolom tag, masukkan versi yang **sama persis** dengan yang ada di `library.properties`, yaitu `1.0.0` (atau `v1.0.0`).
-4. Beri judul release `1.0.0` dan klik **Publish release**.
-
-### Langkah 3: Daftarkan ke Arduino Library Registry
-Arduino menggunakan issue tracker resmi untuk mendaftarkan library baru:
-1. Buka tautan pendaftaran resmi berikut:  
-   👉 [Arduino Library Registry - Add Library Issue](https://github.com/arduino/library-registry/issues/new?template=new_library.yml)
-2. Isi formulir yang disediakan:
-   - **Repository URL**: Masukkan link repository GitHub Anda, contoh:  
-     `https://github.com/usmanargit/AsairAgh3485.git`
-3. Klik tombol **Submit new issue**.
-
-### Langkah 4: Pemindaian Otomatis oleh Bot Arduino
-1. Bot Arduino (`arduino-libraries`) akan memvalidasi metadata `library.properties` Anda secara otomatis.
-2. Jika semua aturan terpenuhi, bot akan memberikan komentar `Approved` dan menutup issue.
-3. Dalam kurun waktu beberapa jam, library Anda akan masuk ke database indeks dan muncul di Library Manager Arduino IDE!
-
-### Langkah 5: Rilis Pembaruan di Masa Depan
-Jika Anda memperbarui kode di masa depan:
-1. Naikkan nilai `version` di `library.properties` (misalnya `1.0.1`).
-2. Push commit dan buat Git Tag/Release baru `1.0.1`.
-3. Anda **tidak perlu** membuka issue lagi! Crawler Arduino akan mendeteksi rilis baru secara otomatis.
-
 ---
 
 ## Lisensi
